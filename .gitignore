@@ -12,8 +12,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-.gitattributes
-mvnw.cmd
 
 ### IntelliJ IDEA ###
 .idea
@@ -21,6 +19,9 @@ mvnw.cmd
 *.iml
 *.ipr
 .mvn
+.gitattributes
+mvnw
+mvnw.cmd
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
