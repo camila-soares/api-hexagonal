@@ -18,10 +18,10 @@ target/
 *.iws
 *.iml
 *.ipr
-.mvn
-.gitattributes
-mvnw
-mvnw.cmd
+*.mvn
+*.gitattributes
+*.mvnw
+*.mvnw.cmd
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
