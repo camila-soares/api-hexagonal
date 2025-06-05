@@ -18,8 +18,6 @@ public class Customer {
     private String cpf;
     private Boolean isValidcpf;
 
-
-
     public String getId() {
         return id;
     }

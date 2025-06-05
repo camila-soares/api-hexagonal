@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "archRule.failOnEmptyShould",
+      "type": "java.lang.String",
+      "description": "Description for archRule.failOnEmptyShould."
+  }
+] }

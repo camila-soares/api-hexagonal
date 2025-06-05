@@ -2,7 +2,7 @@ package com.github.api.hexagonal.application.ports.in;
 
 import com.github.api.hexagonal.application.core.domain.Customer;
 
-public interface InsertCustomerInputPort {
+public interface FindCustomerByIdInputPort {
 
-    void insert(Customer customer, String zipCode);
+    Customer findById(String id);
 }

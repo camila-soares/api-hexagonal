@@ -1,4 +1,4 @@
-package com.github.api.hexagonal.adapters.out.client.response;
+package com.github.api.hexagonal.adapters.in.controller.response;
 
 
 public class AddressResponse {

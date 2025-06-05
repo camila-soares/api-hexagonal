@@ -1,16 +1,18 @@
-package com.github.api.hexagonal.adapters.out.repository.entity;
+package com.github.api.hexagonal.adapters.in.consumer.message;
 
-import com.github.api.hexagonal.application.core.domain.Address;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "customer")
-public class CustomerEntity {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-    @Id
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CustomerMessage {
+
     private String id;
     private String name;
-    private AddressEntity adress;
+    private String zipCode;
     private String cpf;
     private Boolean isValidcpf;
 
@@ -30,12 +32,13 @@ public class CustomerEntity {
         this.name = name;
     }
 
-    public AddressEntity getAdress() {
-        return adress;
+
+    public String getZipCode() {
+        return zipCode;
     }
 
-    public void setAdress(AddressEntity adress) {
-        this.adress = adress;
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
     }
 
     public String getCpf() {
